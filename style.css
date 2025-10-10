@@ -1,8 +1,8 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #f4f4f9;
-    color: #333;
+    background: rgb(244, 244, 249);
+    color: rgb(51, 51, 51);
     user-select: none;
 }
 
@@ -16,20 +16,20 @@ h2 {
 }
 
 header {
-    background: #222;
-    color: #fff;
+    background: rgb(34, 34, 34);
+    color: white;
     text-align: center;
     padding: 1.5rem;
 }
 
 nav {
-    background: #444;
+    background: rgb(68, 68, 68);
     padding: 0.5rem;
     text-align: center;
 }
 
 nav a {
-    color: #fff;
+    color: rgb(255, 255, 255);
     margin: 0 15px;
     text-decoration: none;
     font-weight: bold;
@@ -38,7 +38,7 @@ nav a {
 
 nav a:hover {
     transform: scale(1.1);
-    color: #ff6347;
+    color: rgb(255, 99, 71);
 }
 
 .gallery {
@@ -87,10 +87,15 @@ nav a:hover {
     display: flex;
 }
 
-footer {
-    background: #222;
-    color: #fff;
+.copy {
+    color: white;
     text-align: center;
+}
+
+footer {
+    background: rgb(34, 34, 34);
+    color: white;
+
     padding: 1rem;
     margin-top: 20px;
 }
